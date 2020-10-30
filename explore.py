@@ -54,6 +54,8 @@ for rt in risetimes:
 	time = datetime.fromtimestamp(rt)
 	times.append(time)
 	print(time)
+	
+#PS: Looks like ISS passes over Ghana often!!! 
 
 
 
