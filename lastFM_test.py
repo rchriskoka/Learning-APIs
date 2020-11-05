@@ -3,8 +3,8 @@
 import requests
 
 #Defining our API key and user agent.
-API_KEY = '3be711335ecfcc4d20fe7e962fd96f37'
-USER_AGENT = 'rchriskoka'
+API_KEY = ''
+USER_AGENT = 'kookies'
 
 """
 #Creating a dictionary for our headers and parameters and making our first request.
