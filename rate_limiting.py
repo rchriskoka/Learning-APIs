@@ -4,7 +4,7 @@
 # The easiest way to perform rate limiting is to use Python's time.sleep() function.
 
 import time
-from lastFM_test import lastfm_get
+from lastFM_test import *
 from IPython.core.display import clear_output
 
 responses = []
