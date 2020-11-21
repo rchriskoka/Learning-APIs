@@ -4,7 +4,7 @@ import requests
 
 #Defining our API key and user agent.
 API_KEY = ''
-USER_AGENT = 'kookies'
+USER_AGENT = 'rchriskoka'
 
 """
 #Creating a dictionary for our headers and parameters and making our first request.
