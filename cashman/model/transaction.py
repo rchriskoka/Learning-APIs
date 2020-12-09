@@ -11,7 +11,7 @@ class Transaction():
 	def __init__(self, description, amount, type):
 		self.description = description
 		self.amount = amount
-		self.create_at = dt.datetime.now()
+		self.created_at = dt.datetime.now()
 		self.type = type
 		
 	def __repr__(self):
@@ -22,5 +22,5 @@ class TransactionSchema(Schema):
 	description = fields.Str()
 	amount = fields.Number()
 	created_at = fields.Date()
-	type= fields.Str()
+	type = fields.Str()
 	

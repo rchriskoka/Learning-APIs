@@ -14,9 +14,11 @@ class Expense(Transaction):
 		
 class ExpenseSchema(TransactionSchema):
 	@post_load
-	def make_expense(self,data):
+	def make_expense(self, data, **kwargs):
 		return Expense(**data)
 
 #Similar to Income Class, this class hardcodes the type of the transaction but now passes Expense to the super class.
 #What makes it different is that it forces the amount passed to be negative. 
 #Therefore, no matter if the user sends a positive or negative value, it will always be stored as negative to faciliate calculations.
+
+

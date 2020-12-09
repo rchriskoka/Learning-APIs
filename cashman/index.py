@@ -21,7 +21,7 @@ transactions = [
 def get_incomes():
 	schema = IncomeSchema(many=True)
 	incomes = schema.dump(
-		filter(lambda t: t.type == TransactionType.INCOME, transactions)
+		filter(lambda t: t.type ==TransactionType.INCOME, transactions)
 	)
 	return jsonify(incomes)
 	
